@@ -3,13 +3,12 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1">
   <meta name="HandheldFriendly" content="true">
   <title>TechCorp Installation Form</title>
-
+  <!-- Link to external CSS file -->
   <link type="text/css" rel="stylesheet" href="assets/css/style.css">
-
+  <!-- Include JavaScript libraries -->
   <script src="assets/js/jquery.1.11.1.min.js" type="text/javascript"></script>
   <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
   <script src="assets/js/jqBootstrapValidation.js" type="text/javascript"></script>
@@ -18,27 +17,27 @@
   <script src="assets/js/main.js" type="text/javascript"></script>
   <script src="assets/js/jquery.dm-uploader.min.js" type="text/javascript"></script>
   <script src="assets/js/html2canvas.min.js" type="text/javascript"></script>
-
+  <!-- Include additional CSS files -->
   <link type="text/css" rel="stylesheet" href="assets/css/flatpickr.min.css">
   <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
-
+  <!-- Include flatpickr JavaScript library -->
   <script type="text/javascript" src="assets/js/flatpickr.js"></script>
-
 </head>
 
 <body>
   <form class="jotform-form" method="post" enctype="multipart/form-data" id="submit_form" action="">
     <div role="main" class="form-all">
       <ul class="form-section page-section">
+        <!-- Form Header Start -->
         <li id="cid_1" class="form-input-wide" data-type="control_head">
           <div class="form-header-group  header-large">
             <div class="header-text httal htvam">
-              <h1 id="header_1" class="form-header" data-component="header">
-                TechCorp Installation Form
-              </h1>
+              <h1 id="header_1" class="form-header" data-component="header"> TechCorp Installation Form </h1>
             </div>
           </div>
         </li>
+        <!-- Form Header End  -->
+        <!-- Company Name Start -->
         <li class="form-line" data-type="control_textbox" id="id_16">
           <label class="form-label form-label-top form-label-auto" id="label_16" for="input_16"> Company Name </label>
           <div id="cid_16" class="form-input-wide" data-layout="half">
@@ -46,6 +45,8 @@
               class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="">
           </div>
         </li>
+        <!-- Company Name End -->
+        <!-- Date Start -->
         <li class="form-line" data-type="control_datetime" id="id_9">
           <label class="form-label form-label-top form-label-auto" id="label_9" for="lite_mode_9"> Date </label>
           <div id="cid_9" class="form-input-wide" data-layout="half">
@@ -59,25 +60,24 @@
             </div>
           </div>
         </li>
+        <!-- Date End -->
+        <!-- Contract Start -->
         <li class="form-line" data-type="control_radio" id="id_11">
           <label class="form-label form-label-top form-label-auto" id="label_11" for="input_11"> Contract </label>
           <div id="cid_11" class="form-input-wide" data-layout="full">
             <div class="form-single-column" role="group" aria-labelledby="label_11" data-component="radio">
               <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
+                <span class="dragger-item"></span>
                 <input type="radio" aria-describedby="label_11" class="form-radio" id="input_11_0" name="q11_contract"
                   value="Signed" required="required">
                 <label id="label_input_11_0" for="input_11_0"> Signed </label>
               </span>
               <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
+                <span class="dragger-item"></span>
                 <input type="radio" aria-describedby="label_11" class="form-radio" id="input_11_1" name="q11_contract"
                   value="Pending">
                 <label id="label_input_11_1" for="input_11_1"> Pending </label>
               </span>
-
               <div id="cid_89" class="form-input-wide" data-layout="full" style="padding-top:25px">
                 <textarea maxlength="250" id="input_89" class="form-textarea custom-hint-group form-custom-hint"
                   name="q89_notes" style="width:648px;height:73px" data-component="textarea" aria-labelledby="label_89"
@@ -87,72 +87,65 @@
             </div>
           </div>
         </li>
+        <!-- Contract End -->
+        <!-- Direct Debit Start -->
         <li class="form-line" data-type="control_radio" id="id_12">
           <label class="form-label form-label-top form-label-auto" id="label_12" for="input_12"> Direct Debit </label>
           <div id="cid_12" class="form-input-wide" data-layout="full">
             <div class="form-single-column" role="group" aria-labelledby="label_12" data-component="radio">
               <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
+                <span class="dragger-item"></span>
                 <input type="radio" aria-describedby="label_12" class="form-radio" id="input_12_0"
                   name="q12_directDebit" value="Confirmed" required="required">
                 <label id="label_input_12_0" for="input_12_0"> Confirmed </label>
               </span>
               <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
+                <span class="dragger-item"></span>
                 <input type="radio" aria-describedby="label_12" class="form-radio" id="input_12_1"
                   name="q12_directDebit" value="Pending">
                 <label id="label_input_12_1" for="input_12_1"> Pending </label>
               </span>
-
               <div id="cid_88" class="form-input-wide" data-layout="full" style="padding-top:25px">
                 <textarea maxlength="250" id="input_88" class="form-textarea custom-hint-group form-custom-hint"
                   name="q88_notes" style="width:648px;height:73px" data-component="textarea" aria-labelledby="label_88"
                   customhinted="true" placeholder="Enter notes here..." spellcheck="false"></textarea>
                 <div id="debit_left" style="padding-top:15px"></div>
               </div>
-
             </div>
           </div>
-
-
         </li>
+        <!-- Direct Debit End -->
+        <!-- Training Time Start -->
         <li class="form-line" data-type="control_radio" id="id_17">
           <label class="form-label form-label-top form-label-auto" id="label_17" for="input_17"> Training Time </label>
           <div id="cid_17" class="form-input-wide" data-layout="full">
             <div class="form-single-column" role="group" aria-labelledby="label_17" data-component="radio">
               <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
+                <span class="dragger-item"></span>
                 <input type="radio" aria-describedby="label_17" class="form-radio" id="input_17_0"
                   name="q17_trainingTime" value="No Training Required" required="required">
                 <label id="label_input_17_0" for="input_17_0"> No Training Required </label>
               </span>
               <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
+                <span class="dragger-item"></span>
                 <input type="radio" aria-describedby="label_17" class="form-radio" id="input_17_1"
                   name="q17_trainingTime" value="15 min">
                 <label id="label_input_17_1" for="input_17_1"> 15 min </label>
               </span>
               <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
+                <span class="dragger-item"></span>
                 <input type="radio" aria-describedby="label_17" class="form-radio" id="input_17_2"
                   name="q17_trainingTime" value="20 min">
                 <label id="label_input_17_2" for="input_17_2"> 20 min </label>
               </span>
               <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
+                <span class="dragger-item"></span>
                 <input type="radio" aria-describedby="label_17" class="form-radio" id="input_17_3"
                   name="q17_trainingTime" value="30 min">
                 <label id="label_input_17_3" for="input_17_3"> 30 min </label>
               </span>
               <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
+                <span class="dragger-item"></span>
                 <input type="radio" aria-describedby="label_17" class="form-radio" id="input_17_4"
                   name="q17_trainingTime" value="60 min">
                 <label id="label_input_17_4" for="input_17_4"> 60 min </label>
@@ -160,6 +153,8 @@
             </div>
           </div>
         </li>
+        <!-- Training Time End -->
+        <!-- Internet Provider Start -->
         <li class="form-line" data-type="control_textbox" id="id_15">
           <label class="form-label form-label-top form-label-auto" id="label_15" for="input_15"> Internet Provider
           </label>
@@ -169,6 +164,8 @@
               aria-labelledby="label_15">
           </div>
         </li>
+        <!-- Internet Provider End -->
+        <!-- Product Selection Start -->
         <li class="form-line" data-type="control_payment" id="id_4" data-payment="true">
           <label class="form-label form-label-top" id="label_4" for="input_4"> My Products </label>
           <div id="cid_4" class="form-input-wide" data-layout="full">
@@ -181,25 +178,19 @@
                       <div class="p_checkbox">
                         <input type="checkbox" class="form-checkbox  form-product-input" id="input_4_1001"
                           name="q4_myProducts[][id]" value="1001">
-                        <div class="checked">
-                        </div>
-                        <div class="select_border">
-                        </div>
+                        <div class="checked"></div>
+                        <div class="select_border"></div>
                       </div>
                     </div>
                     <div class="p_image">
                       <div role="img" aria-label="EPOS" class="image_area form-product-image-with-options"
-                        style="background-image:url(assets/images/Epos.png)">
-                      </div>
+                        style="background-image:url(assets/images/Epos.png)"></div>
                     </div>
                     <div for="input_4_1001" class="form-product-container">
                       <span data-wrapper-react="true">
                         <div class="title_description">
-                          <span class="form-product-name" id="product-name-input_4_1001">
-                            EPOS
-                          </span>
-                          <span class="form-product-description" id="product-name-description-input_4_1001">
-                          </span>
+                          <span class="form-product-name" id="product-name-input_4_1001"> EPOS </span>
+                          <span class="form-product-description" id="product-name-description-input_4_1001"></span>
                         </div>
                       </span>
                       <span class="form-sub-label-container" style="vertical-align:top">
@@ -224,8 +215,7 @@
                     </div>
                   </div>
                 </span>
-                <div class="p_item_separator ">
-                </div>
+                <div class="p_item_separator "></div>
                 <span class="form-product-item hover-product-item  show_image show_option new_ui"
                   categories="non-categorized" pid="1003" aria-labelledby="label_4">
                   <div data-wrapper-react="true" class="form-product-item-detail new_ui">
@@ -233,25 +223,19 @@
                       <div class="p_checkbox">
                         <input type="checkbox" class="form-checkbox  form-product-input" id="input_4_1003"
                           name="q4_myProducts[][id]" value="1003">
-                        <div class="checked">
-                        </div>
-                        <div class="select_border">
-                        </div>
+                        <div class="checked"></div>
+                        <div class="select_border"></div>
                       </div>
                     </div>
                     <div class="p_image">
                       <div role="img" aria-label="Product Name" class="image_area form-product-image-with-options"
-                        style="background-image:url(assets/images/printer.png)">
-                      </div>
+                        style="background-image:url(assets/images/printer.png)"></div>
                     </div>
                     <div for="input_4_1003" class="form-product-container">
                       <span data-wrapper-react="true">
                         <div class="title_description">
-                          <span class="form-product-name" id="product-name-input_4_1003">
-                            Printer
-                          </span>
-                          <span class="form-product-description" id="product-name-description-input_4_1003">
-                          </span>
+                          <span class="form-product-name" id="product-name-input_4_1003"> Printer </span>
+                          <span class="form-product-description" id="product-name-description-input_4_1003"></span>
                         </div>
                       </span>
                       <span class="form-sub-label-container" style="vertical-align:top">
@@ -281,8 +265,7 @@
                     </div>
                   </div>
                 </span>
-                <div class="p_item_separator ">
-                </div>
+                <div class="p_item_separator "></div>
                 <span class="form-product-item hover-product-item  show_image show_option new_ui"
                   categories="non-categorized" pid="1004" aria-labelledby="label_4">
                   <div data-wrapper-react="true" class="form-product-item-detail new_ui">
@@ -290,25 +273,19 @@
                       <div class="p_checkbox">
                         <input type="checkbox" class="form-checkbox  form-product-input" id="input_4_1004"
                           name="q4_myProducts[][id]" value="1004">
-                        <div class="checked">
-                        </div>
-                        <div class="select_border">
-                        </div>
+                        <div class="checked"></div>
+                        <div class="select_border"></div>
                       </div>
                     </div>
                     <div class="p_image">
                       <div role="img" aria-label="Product Name" class="image_area form-product-image-with-options"
-                        style="background-image:url(assets/images/cash.jpg)">
-                      </div>
+                        style="background-image:url(assets/images/cash.jpg)"></div>
                     </div>
                     <div for="input_4_1004" class="form-product-container">
                       <span data-wrapper-react="true">
                         <div class="title_description">
-                          <span class="form-product-name" id="product-name-input_4_1004">
-                            Cash Drawer
-                          </span>
-                          <span class="form-product-description" id="product-name-description-input_4_1004">
-                          </span>
+                          <span class="form-product-name" id="product-name-input_4_1004"> Cash Drawer </span>
+                          <span class="form-product-description" id="product-name-description-input_4_1004"></span>
                         </div>
                       </span>
                       <span class="form-sub-label-container" style="vertical-align:top">
@@ -333,8 +310,7 @@
                     </div>
                   </div>
                 </span>
-                <div class="p_item_separator ">
-                </div>
+                <div class="p_item_separator "></div>
                 <span class="form-product-item hover-product-item  show_image show_option new_ui"
                   categories="non-categorized" pid="1005" aria-labelledby="label_4">
                   <div data-wrapper-react="true" class="form-product-item-detail new_ui">
@@ -342,25 +318,19 @@
                       <div class="p_checkbox">
                         <input type="checkbox" class="form-checkbox  form-product-input" id="input_4_1005"
                           name="q4_myProducts[][id]" value="1005">
-                        <div class="checked">
-                        </div>
-                        <div class="select_border">
-                        </div>
+                        <div class="checked"></div>
+                        <div class="select_border"></div>
                       </div>
                     </div>
                     <div class="p_image">
                       <div role="img" aria-label="Product Name" class="image_area form-product-image-with-options"
-                        style="background-image:url(assets/images/switch.png)">
-                      </div>
+                        style="background-image:url(assets/images/switch.png)"></div>
                     </div>
                     <div for="input_4_1005" class="form-product-container">
                       <span data-wrapper-react="true">
                         <div class="title_description">
-                          <span class="form-product-name" id="product-name-input_4_1005">
-                            Caller ID
-                          </span>
-                          <span class="form-product-description" id="product-name-description-input_4_1005">
-                          </span>
+                          <span class="form-product-name" id="product-name-input_4_1005"> Caller ID </span>
+                          <span class="form-product-description" id="product-name-description-input_4_1005"></span>
                         </div>
                       </span>
                       <span class="form-sub-label-container" style="vertical-align:top">
@@ -389,8 +359,7 @@
                     </div>
                   </div>
                 </span>
-                <div class="p_item_separator ">
-                </div>
+                <div class="p_item_separator "></div>
                 <span class="form-product-item hover-product-item  show_image show_option new_ui"
                   categories="non-categorized" pid="1006" aria-labelledby="label_4">
                   <div data-wrapper-react="true" class="form-product-item-detail new_ui">
@@ -398,25 +367,19 @@
                       <div class="p_checkbox">
                         <input type="checkbox" class="form-checkbox  form-product-input" id="input_4_1006"
                           name="q4_myProducts[][id]" value="1006">
-                        <div class="checked">
-                        </div>
-                        <div class="select_border">
-                        </div>
+                        <div class="checked"></div>
+                        <div class="select_border"></div>
                       </div>
                     </div>
                     <div class="p_image">
                       <div role="img" aria-label="Product Name" class="image_area form-product-image-with-options"
-                        style="background-image:url(assets/images/tv.jpg)">
-                      </div>
+                        style="background-image:url(assets/images/tv.jpg)"></div>
                     </div>
                     <div for="input_4_1006" class="form-product-container">
                       <span data-wrapper-react="true">
                         <div class="title_description">
-                          <span class="form-product-name" id="product-name-input_4_1006">
-                            Smart TV
-                          </span>
-                          <span class="form-product-description" id="product-name-description-input_4_1006">
-                          </span>
+                          <span class="form-product-name" id="product-name-input_4_1006"> Smart TV </span>
+                          <span class="form-product-description" id="product-name-description-input_4_1006"></span>
                         </div>
                       </span>
                       <span class="form-sub-label-container" style="vertical-align:top">
@@ -455,6 +418,8 @@
             </div>
           </div>
         </li>
+        <!-- Product Selection End -->
+        <!-- Notes Textarea Start -->
         <li class="form-line" data-type="control_textarea" id="id_18">
           <label class="form-label form-label-top form-label-auto" id="label_18" for="input_18"> Notes </label>
           <div id="cid_18" class="form-input-wide" data-layout="full">
@@ -465,6 +430,8 @@
             <div id="feedback" style="padding-top:15px"></div>
           </div>
         </li>
+        <!-- Notes Textarea End -->
+        <!-- File Upload Start -->
         <li class="form-line" data-type="control_fileupload" id="id_5">
           <label class="form-label form-label-top form-label-auto" id="label_5" for="input_5"> File Upload </label>
           <div id="cid_5" class="form-input-wide" data-layout="full">
@@ -492,17 +459,13 @@
                   </div>
                   <div class="jfUpload-files-container validate[multipleUpload]">
                     <div class="qq-uploader">
-                      <div class="qq-upload-drop-area" style="display: none;"><span>Drop files here to upload</span>
+                      <div class="qq-upload-drop-area" style="display: none;">
+                        <span>Drop files here to upload</span>
                       </div>
                       <div class="qq-upload-button" aria-hidden="true"
-                        style="position: relative; overflow: hidden; direction: ltr;">
-                        Browse Files
-                        <div class="jfUpload-heading forDesktop">
-                          Drag and drop files here
-                        </div>
-                        <div class="jfUpload-heading forMobile">
-                          Choose a file
-                        </div>
+                        style="position: relative; overflow: hidden; direction: ltr;"> Browse Files <div
+                          class="jfUpload-heading forDesktop"> Drag and drop files here </div>
+                        <div class="jfUpload-heading forMobile"> Choose a file </div>
                       </div>
                       <div class="inputContainer" role="button" aria-label="Browse Files Drag and drop files here"
                         tabindex="0">
@@ -516,51 +479,48 @@
                     </div>
                   </div>
                 </div>
-                <div data-wrapper-react="true">
-                </div>
+                <div data-wrapper-react="true"></div>
               </div>
             </div>
           </div>
         </li>
+        <!-- File Upload End -->
+        <!-- Submit Button Start -->
         <li class="form-line" data-type="control_button" id="id_2">
           <div id="cid_2" class="form-input-wide" data-layout="full">
             <div data-align="auto" class="form-buttons-wrapper form-buttons-auto jsTest-button-wrapperField">
               <button id="input_2" type="submit"
-                class="form-submit-button submit-button jf-form-buttons jsTest-submitField">
-                Submit
-              </button>
+                class="form-submit-button submit-button jf-form-buttons jsTest-submitField"> Submit </button>
             </div>
           </div>
         </li>
+        <!-- Submit Button End -->
       </ul>
     </div>
-    <!-- style="display:none;" -->
+    <!-- PDF view container (hidden by default) -->
     <div id="pdf_view" style="display:none;">
+      <!-- PDF view content added dynamically -->
       <div class="bootstrap-wrapper container">
-        <div class="row no-gutters">
-        </div>
+        <div class="row no-gutters"></div>
       </div>
     </div>
   </form>
+  <!-- File upload template -->
   <script type="text/html" id="files-template">
-	   <li tabindex="-1" class="qq-upload-success" aria-label="Uploaded files">
-		  <div class="qq-upload-img-container">
-			<img src="" alt="">
-		  </div>
-		  
-		  <span class="qq-upload-file">%%filename%%</span>
-		  <span class="qq-upload-size" style="display: inline;">
-			<div class="progress mb-2">
-				<div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" 
-				  role="progressbar"
-				  style="width: 0%" 
-				  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-				</div>
-			</div>
-		   </span>
-		   <span class="status qq-upload-failed-text" style="display: inline;">Waiting</span>
-		   <span class="qq-upload-delete" role="button" tabindex="0" aria-label="Delete File">X</span>
-	   </li>	
-
-    </script>
+      <!-- Template for uploaded files -->
+  <li tabindex="-1" class="qq-upload-success" aria-label="Uploaded files">
+    <div class="qq-upload-img-container">
+      <img src="" alt="">
+    </div>
+    <span class="qq-upload-file">%%filename%%</span>
+    <span class="qq-upload-size" style="display: inline;">
+      <div class="progress mb-2">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+          style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </span>
+    <span class="status qq-upload-failed-text" style="display: inline;">Waiting</span>
+    <span class="qq-upload-delete" role="button" tabindex="0" aria-label="Delete File">X</span>
+  </li>
+  </script>
 </body>
