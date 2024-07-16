@@ -2,7 +2,7 @@
 
 ## Description
 
-The TechCorp Installation Form is a web-based application designed to collect installation details for companies using TechCorp products. The form gathers essential information, including company details, installation specifics, contract status, direct debit confirmation, training requirements, internet provider, and product selection. This helps streamline the installation process and ensures all necessary information is collected efficiently.
+The TechCorp Install form is a web-based, business-specific application that focuses on collecting detailed company information for TechCorp products installed. We get company information, information about how the installation was done, the contract status details, whether debit was authorized for example concerning bank account number, training requirements for instance time frame in which training will take place, what time a business prefers training to be carried out etc), name of internet service provider among others, as well as the choice of products being introduced. Such systematized disposition of activities ensures smooth data collection without complicating anything but rather exporting it into PDF format.
 
 ## Adding Your Logo
 
@@ -62,7 +62,19 @@ Fill out the form fields as required:
 -  **Internet Provider**: Enter the name of the internet provider.
 -  **Product Selection**: Select the quantities for EPOS, printers, cash drawers, caller IDs, and smart TVs.
 
-After filling out the form, submit it to process the data.
+After filling out the form, submit it to process the data and save the exported PDF.
+
+## Screenshots
+
+### Form
+
+![Form Screenshot](form-images/form-screenshot.png)
+
+### PDF Format
+
+![1](form-images/pdf-preview-1.png)
+![2](form-images/pdf-preview-2.png)
+![3](form-images/pdf-preview-3.png)
 
 ## Contributing
 
