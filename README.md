@@ -9,7 +9,7 @@ The TechCorp Install form is a web-based, business-specific application that foc
 To change the logo in the PDF export, upload your logo to the URL below and copy the Base64 code:
 [Base64 Image Upload](https://www.base64-image.de/)
 
-Include the Base64 code in the relevant section of your script to ensure your logo appears in the exported PDF.
+Include the Base64 code in the relevant section of the script (main.js) to ensure your logo appears in the exported PDF.
 
 ## Form Features
 
