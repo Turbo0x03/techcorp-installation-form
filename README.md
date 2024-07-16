@@ -68,13 +68,13 @@ After filling out the form, submit it to process the data and save the exported 
 
 ### Form
 
-![Form Screenshot](form-images/form-screenshot.png)
+![Form Screenshot](form-screenshots/form-screenshot.png)
 
 ### PDF Format
 
-![1](form-images/pdf-preview-1.png)
-![2](form-images/pdf-preview-2.png)
-![3](form-images/pdf-preview-3.png)
+![1](form-screenshots/pdf-preview-1.png)
+![2](form-screenshots/pdf-preview-2.png)
+![3](form-screenshots/pdf-preview-3.png)
 
 ## Contributing
 
